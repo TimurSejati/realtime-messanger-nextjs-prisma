@@ -5,7 +5,7 @@ const useConversation = () => {
   const params = useParams();
 
   const conversationId = useMemo(() => {
-    if (!params?.conversation) {
+    if (!params?.conversationId) {
       return "";
     }
 
